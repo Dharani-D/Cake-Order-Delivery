@@ -1,0 +1,117 @@
+.header {
+    background-image: url('https://dreamfurniture.in/wp-content/uploads/2016/02/Contact-Us-Banner-1.png');
+    background-size: cover; /* Ensure the image covers the entire header */
+    background-position: cover; /* Center the image */
+    height: 300px; /* Adjust the height as needed */
+    text-align: center; /* Center-align text within the header */
+    color: white; /* Set text color */
+    margin-bottom: 10px;
+
+
+
+}
+
+
+/* Style for header */
+.header h1 {
+    padding-top: 150px;
+}
+
+/* Style for container */
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style for logo */
+.logo {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style for location text */
+.text {
+    font-size: 50px;
+    color: red;
+}
+
+/* Style for address */
+.add {
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+/* Style for phone section */
+.po {
+    text-align: center;
+    background-color: palegoldenrod;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style for phone icon */
+.ph {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style for phone text */
+.txt {
+    font-size: 50px;
+    color: red;
+}
+
+/* Style for phone numbers */
+.sub {
+    font-size: 30px;
+}
+
+/* Style for email section */
+.em {
+    text-align: center;
+    background-color: floralwhite;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style for email icon */
+.mail {
+    width: 150px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style for email text */
+.tx {
+    font-size: 50px;
+    color: red;
+}
+
+/* Style for email addresses */
+.mul {
+    font-size: 30px;
+}
+
+/* Style for map */
+.maps {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    background-color: bisque;
+    color: red;
+}
+
+/* Style for closing message */
+.end {
+    text-align: center;
+    background-color: black;
+}
+
+/* Style for closing message text */
+.fin {
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+}

@@ -1,0 +1,114 @@
+.banner
+{
+    background-image: url("https://www.baskinrobbinsmea.com/wp-content/uploads/2014/12/10661-BR-cakes-web-banner-1600x532-pxls.jpg");
+    height: 600px;
+    background-position: center top;
+    background-size: cover;
+}
+
+
+
+.content
+{
+    bottom: 30%;
+    left: 80%;
+    position: absolute;
+}
+.content h1 
+{
+    color: yellow;
+    font-size: 60px;
+    font-weight: bold;
+  
+}
+.content a 
+{
+    text-decoration: none;
+    background-color: #e60064;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-align: bold;
+}
+
+.content a:hover 
+{
+    background-color: white;
+    color: red;
+}
+
+.stepBox 
+{
+    background-color: palevioletred;
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-align: bottom;
+
+}
+.stepBox h1 
+{
+    font-size: 50px;
+    font-weight: bold;
+    color:white;
+    
+}
+.stepBox p 
+{
+    font-size: 20px;
+    font-style: italic;
+    color: #fff;
+
+}
+.highlight
+{
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    
+    
+}
+
+.foodbox 
+{
+    padding: 10px 5px;
+} 
+.foodbox img
+{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.foodbox h1 
+{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+    .viewmorebtn {
+        position: absolute;
+      top: 1200px;
+        right: 90px;
+        text-decoration: none;
+        background-color: mediumvioletred;
+        color: black;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    
+    
+    
+
+
+@media screen and (max-width:600px)
+{
+    .banner
+{
+    height: 700px;
+}
+
+}

@@ -1,0 +1,34 @@
+<div class="b">
+  <h1>Pick your order</h1>
+</div>
+
+<div class="sample">
+<div class="cake-container">
+  <form (ngSubmit)="save()" #cakeForm="ngForm">
+    <label class="label">Name</label>
+    <input class="form-control" [(ngModel)]="name" name="name" placeholder="Enter your Name" required/>  
+  
+    
+
+    <label class="label">Email</label>
+    <input class="form-control" [(ngModel)]="email" name="email" placeholder="Enter your Email" required/>  
+
+    <label class="label">Phone</label>
+    <input class="form-control" [(ngModel)]="phone" name="email" placeholder="Enter your phone" required/>  
+
+  
+    <label class="label">Address</label>
+    <input class="form-control" [(ngModel)]="address" name="email" placeholder="Enter your Address" required/>  
+
+    <label class="label">Type</label>
+    <input class="form-control" [(ngModel)]="type" name="email" placeholder="Enter your type" required/>  
+
+    <label class="label">qty</label>
+    <input class="form-control" [(ngModel)]="qty" name="contact" placeholder="Enter your qty" required />
+  
+
+
+    <button class="save-button" [disabled]="!cakeForm.valid" onclick="alert('ordered successfully')">Click Me</button>
+  </form>
+</div>
+</div>
